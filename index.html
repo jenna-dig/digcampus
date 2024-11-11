@@ -13,9 +13,17 @@
         crossorigin="anonymous"></script>
     <style>
         /* 꾸미기 */
+    .card {
+        /* Optional: Add padding to create space around the card content */
+        padding: 10px;
+    }
     .card-img-top {
-        max-width: 100px;  /* 최대 크기 설정 */
-        height: auto;      /* 세로 비율 유지 */
+        width: 30%;  /* Make the image slightly smaller than the card */
+        height: auto;  /* Maintain aspect ratio */
+        margin: 0 auto;  /* Center the image horizontally */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;  /* Centering fix */
     }
 
     </style>
@@ -35,14 +43,14 @@
     <div class="container mt-5">
         <button type="button" onclick="window.open('https://jennanam.cafe24.com/?utm_source=digcampus&utm_medium=referral&utm_campaign=training_test&utm_content=btn1', '_blank')" class="btn btn-primary">Click Me</button>
         <a href="https://jennanam.cafe24.com/?utm_source=digcampus&utm_medium=referral&utm_campaign=training_test&utm_content=btn2" target="_blank" class="btn btn-primary" role="button">Cafe 24</a>
-        <a href="https://jenna-dig.github.io/digcampus/master/jenna.html" class="btn btn-primary" role="button">Jenna Page 1</a>
+        <a href="/master/jenna.html" class="btn btn-primary" role="button">Jenna Page 1</a>
     </div> 
 
     <div class="container mt-5">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
             <!-- GA4 카드 -->
             <div class="col">
-                <div class="card" style="height: 350px;">
+                <div class="card" style="height: 270px;">
                     <img src="ic_analytics.svg" class="card-img-top" alt="ga4 logo" />
                     <div class="card-body">
                         <h5 class="card-title">GA4 - Beginner</h5>
@@ -56,7 +64,7 @@
             </div>
             <!-- GTM 카드 -->
             <div class="col">
-                <div class="card" style="height: 350px;">
+                <div class="card" style="height: 270px;">
                     <img src="ic_tag_manager.svg" class="card-img-top" alt="gtm logo" />
                     <div class="card-body">
                         <h5 class="card-title">GTM</h5>
@@ -70,7 +78,7 @@
             </div>
             <!-- UTM 카드 -->
             <div class="col">
-                <div class="card" style="height: 350px;">
+                <div class="card" style="height: 270px;">
                     <img src="google_tag.png" class="card-img-top" alt="utm-code image" />
                     <div class="card-body">
                         <h5 class="card-title">UTM</h5>
